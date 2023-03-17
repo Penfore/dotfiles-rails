@@ -29,3 +29,15 @@
 - [Ruby](https://marketplace.visualstudio.com/items?itemName=rebornix.Ruby): Ruby language support and debugging for Visual Studio Code
 - [Slim](https://marketplace.visualstudio.com/items?itemName=sianglim.slim): Slim language support based on https://github.com/slim-template/ruby-slim.tmbundle
 - [Simple Ruby ERB](https://marketplace.visualstudio.com/items?itemName=vortizhe.simple-ruby-erb): Provides simple Ruby and ERB language, code snippets and ERB tag
+
+## Configure ESlint path
+
+- Press `ctrl(Command for Mac OSX) + comma` to open the vscode settings
+- search for Eslint in the extensions tab 
+- Click on `edit on settings.json` to open the settings.json file and put your home folder in the confiFile option  
+
+```
+"eslint.options": { 
+	"configFile": "/Users/your_home_directory/.eslintrc.yml"
+}
+```
