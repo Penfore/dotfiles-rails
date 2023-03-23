@@ -1390,7 +1390,7 @@ Style/ClassAndModuleChildren:
   SupportedStyles:
     - nested
     - compact
-  AutoCorrect: false
+  AutoCorrect: true
 
 Style/ClassCheck:
   Description: 'Enforces consistent use of `Object#is_a?` or `Object#kind_of?`.'
@@ -1534,7 +1534,7 @@ Style/Dir:
 
 Style/Documentation:
   Description: 'Document classes and non-namespace modules.'
-  Enabled: true
+  Enabled: false
   Exclude:
     - 'spec/**/*'
     - 'test/**/*'
@@ -1671,7 +1671,7 @@ Style/FrozenStringLiteralComment:
   Description: >-
                  Add the frozen_string_literal comment to the top of files
                  to help transition from Ruby 2.3.0 to Ruby 3.0.
-  Enabled: true
+  Enabled: false
   EnforcedStyle: always
   SupportedStyles:
     # `always` will always add the frozen string literal comment to a file
@@ -2204,7 +2204,7 @@ Style/SymbolArray:
   Description: Use %i or %I for arrays of symbols.
   StyleGuide: "#percent-i"
   Enabled: true
-  EnforcedStyle: percent
+  EnforcedStyle: brackets
   MinSize: 0
   SupportedStyles:
     - percent
