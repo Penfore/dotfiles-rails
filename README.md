@@ -12,6 +12,8 @@
 
 ## Install the required gems
 
+> You will have to do this step for every single project
+
 `‌gem install solargraph`
 
 `gem install rubocop`
