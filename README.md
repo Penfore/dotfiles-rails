@@ -12,7 +12,7 @@
 
 ## Install the required gems
 
-> You will have to do this step for every single project
+> You will have to do this step for every gemset
 
 `‌gem install solargraph`
 
